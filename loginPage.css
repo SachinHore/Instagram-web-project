@@ -1,0 +1,218 @@
+main{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    
+}
+
+
+
+.left{
+    width: 50%;
+    
+}
+
+.left img{
+    width: 385px;
+    
+    
+    float: right; 
+    margin: 10px;
+    
+}
+
+.right{
+    width: 50%;
+    display :flex;
+    flex-direction: column;
+    
+}
+
+
+
+
+
+.loginBox{
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(190, 187, 187);
+    width: 350px;
+    padding: 10px;
+    margin: 12px;
+    margin-top: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+.inputbox{
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    background-color: #fafafa;
+    border-color: rgb(190, 187, 187);
+    border-width: 1px;
+}
+
+.loginBtn{
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(130, 155, 231);
+    width: 325px;
+    color: #fff;
+    border-radius: 5px;
+    border-width: 0px;
+}
+
+.hrLine{
+    width: 325px;
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+.line{
+    width: 40%;  
+    color: rgb(190, 187, 187);
+}
+
+.hrText{
+   
+    text-align: center;
+}
+
+.fbLogin{
+    margin: 10px;
+    color: #385185;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    
+}
+
+.fbLogin img{
+    margin-right: 10px;
+}
+
+.forgPass{
+    text-decoration: none;
+    color: rgb(0, 55, 107);
+    font-weight: 400;
+}
+
+.signupBox{
+    
+    border-style: solid;
+    border-color: rgb(190, 187, 187);
+    border-width: 1px;
+    width: 350px;
+    padding: 10px;
+    margin: 12px;
+    text-align: center;
+    
+}
+
+.signupBox a{
+    text-decoration: none;
+}
+
+
+.getApp{
+    width :350px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 12px;
+    
+    
+    
+}
+
+.getAppbox{
+    text-align: center;
+}
+
+.logos{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin: 12px;
+    
+
+}
+
+.googlePlayLogo{
+    width :50%;
+    margin-inline: 10px;
+    
+}
+
+.microsoftLogo{
+    width :50%;
+    margin-inline: 10px;
+    
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+
+.footerLinksBox{
+    display: flex;
+    justify-content: center;
+    margin: 12px;
+    flex-wrap: wrap;
+    
+}
+
+.footerLink{
+    text-decoration: none;
+    margin-inline: 10px;
+    font-size: 14px;
+    color: rgb(115, 115, 115);
+    font-weight: 400;
+    
+
+}
+
+.footerrowsecond{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: rgb(115, 115, 115);
+    font-weight: 400;
+    margin-inline: 10px;
+}
+
+.footerrowsecond div{
+    margin-right: 20px;
+    border:0px;
+    outline:0px;
+}
+
+@media only screen and (max-width: 800px) {
+    .left {
+        width: 0%;
+    }
+    .right{
+        width: 100%;
+        align-items: center;
+    }
+  }

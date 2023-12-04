@@ -1,0 +1,257 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: rgb(245, 245, 245);
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  background-color: #000;
+  
+}
+
+#sideBar {
+  width: 244px;
+
+  position: sticky;
+  top: 0px;
+  left: 0px;
+
+  height: 100vh;
+  padding: 10px;
+  border-right: 1px solid #666666;
+  
+
+  display: flex;
+  flex-direction: column;
+}
+
+#instagramLogo {
+  padding-inline-start: 0.5vw;
+  width: 55%;
+  margin-top: 10px;
+  margin-bottom: 18px;
+}
+
+.linksDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.links {
+  display: flex;
+  padding: 12px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: rgb(245, 245, 245);
+  width: 220px;
+
+  margin-top: 8px;
+}
+
+.links:hover {
+  background-color: rgba(71, 75, 73, 0.356);
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-inline: 10px;
+}
+
+.links div {
+  font-size: 16px;
+  font-weight: 700;
+  
+}
+
+.profile {
+  border-radius: 50%;
+  background-color: bisque;
+}
+
+#more {
+  position: fixed;
+  bottom: 10px;
+  background-color: #000;
+  border: 0px;
+  
+}
+
+
+
+#more:hover {
+  background-color: rgba(71, 75, 73, 0.356);
+}
+
+
+#menu {
+  width: 250px;
+  height: fit-content;
+  background-color: rgba(36, 35, 35, 0.993);
+  border-radius: 10px;
+  position:fixed;
+  bottom: 60px;
+  left:20px;
+  z-index: 1;
+  display: none;
+  opacity: 10.0;
+  
+}
+
+#right {
+  display: flex;
+  width: 100%;
+  height: 500vh;
+  
+}
+
+
+
+#middle {
+  width: 630px;
+  height: 500vh;
+  
+  margin-left: 5vw;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#stories{
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  overflow-x: scroll;
+}
+
+#stories::-webkit-scrollbar {
+  display: none;
+}
+
+
+#stories .story{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 8px;
+  text-decoration: none;
+  
+  width: 72px;
+  
+}
+
+.story .storyCircle{
+
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  
+  border: 3px solid #bc07f3;
+  
+
+}
+
+.storyCircle img{
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 5px;
+  
+}
+
+.story .storyUserId{
+  text-align: center;
+  
+  overflow-x: hidden;
+}
+
+
+
+
+
+
+#rightSideBar {
+  width: 319px;
+  height: fit-content;
+  
+  display: flex;
+  flex-direction: column;
+  margin-left: 5vw;
+  position: sticky;
+  top: 0px;
+  
+}
+
+#rightSideBar .profileCard{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.profileCard img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-left: 10px;
+  object-fit: cover;
+  
+}
+.profileCard .names{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  flex-grow: 3;
+}
+
+.names .userId{
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.names .userName{
+  font-weight: lighter;
+}
+
+.profileCard .action{
+  
+  
+  flex-grow: 1;
+  align-content: center;
+  padding-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: blue;
+}
+
+.action:hover {
+  color: rgb(245, 245, 245);
+}
+
+#rightSideBar .suggestion{
+  display: flex;
+  margin-top: 20px;
+}
+
+#rightSideBar #suggestionsBox{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.suggestion h4{
+  font-weight: normal;
+  flex-grow: 10;
+  padding-left: 10px;
+}
+
+.suggestion a{
+  font-weight: bolder;
+  text-decoration: none;
+  flex-grow: 1;
+}

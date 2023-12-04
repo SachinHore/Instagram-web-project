@@ -1,0 +1,44 @@
+          <div class="profileCard">
+            <img src="assets/profilephoto.jpeg"></img>
+            <div class="names">
+              <a class="userId" href="">sachin_hore</a>
+              <div class="userName">Sachin Hore</div>
+            </div>
+            <a class="action" href="">Follow</a>
+          </div>
+
+          <div class="profileCard">
+            <img src="assets/profilephoto.jpeg"></img>
+            <div class="names">
+              <a class="userId" href="">sachin_hore</a>
+              <div class="userName">Sachin Hore</div>
+            </div>
+            <a class="action" href="">Follow</a>
+          </div>
+
+          <div class="profileCard">
+            <img src="assets/profilephoto.jpeg"></img>
+            <div class="names">
+              <a class="userId" href="">sachin_hore</a>
+              <div class="userName">Sachin Hore</div>
+            </div>
+            <a class="action" href="">Follow</a>
+          </div>
+
+          <div class="profileCard">
+            <img src=""></img>
+            <div class="names">
+              <a class="userId" href="">sachin_hore</a>
+              <div class="userName">Sachin Hore</div>
+            </div>
+            <a class="action" href="">Follow</a>
+          </div>
+
+          <div class="profileCard">
+            <img src="assets/profilephoto.jpeg"></img>
+            <div class="names">
+              <a class="userId" href="">sachin_hore</a>
+              <div class="userName">Sachin Hore</div>
+            </div>
+            <a class="action" href="">Follow</a>
+          </div>
