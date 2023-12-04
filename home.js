@@ -33,16 +33,4 @@ function Func() {
     .then((data) => console.log(data));
 }
 
-Func2();
-function Func2() {
-    const a=[];
-    fetch("./suggestions.json").then((res) => {return res.json();})
-    .then((data) => {
-        console.log("b" + data);
-        a.push(data.at(0));
-        console.log(a.at(0));
-    });
-    
-    
-}
 
