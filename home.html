@@ -6,59 +6,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Home Instagram</title>
   <link rel="stylesheet" href="/home.css" />
+
 </head>
 
 <body>
-  
+
   <main>
-    <div id="sideBar">
+    <nav id="sideBar">
       <img id="instagramLogo" src="assets/InstagramLogoBlack.PNG" alt="InstagramLogoBlack" />
-      <div class="linksDiv">
-        <a class="links" href="">
-          <img class="icon" src="assets/Instagram-home-icon-on-transparent-background-PNG.png" alt="home" />
-          <div>Home</div>
-        </a>
-        <a class="links" href="">
-          <img class="icon" src="assets/icons8-search-50.png" alt="Search" />
-          <div>Search</div>
-        </a>
-        <a class="links" href="">
-          <img class="icon" src="assets/icons8-explore-24.png" alt="Explore" />
-          <div>Explore</div>
-        </a>
-        <a class="links" href="">
-          <img class="icon" src="assets/icons8-reels-50.png" alt="Reels" />
-          <div>Reels</div>
-        </a>
-        <a class="links" href="">
-          <img class="icon" src="assets/icons8-messages-64.png" alt="Messages" />
-          <div>Messages</div>
-        </a>
-        <a class="links" href="">
-          <img class="icon" src="assets/icons8-heart-notification-50.png" alt="Notifications" />
-          <div>Notifications</div>
-        </a>
-        <a class="links" href="">
-          <img class="icon" src="assets/icons8-create-50.png" alt="Create" />
-          <div>Create</div>
-        </a>
-        <a class="links" href="">
-          <img class="icon profile" src="assets/profilephoto.jpeg" alt="profile" />
-          <div>profile</div>
-        </a>
+
+      <div id="linksDiv">
+
+        <div id="more" class="links" onclick="menuDisplayBlockNoneToggle()">
+          <img class="icon" src="assets/icons8-menu-26.png" alt="more" />
+          <div>More</div>
+
+        </div>
 
       </div>
 
-      
 
-      <button id="more" class="links" onclick="menuDisplayBlockNoneToggle()">
-        <img class="icon" src="assets/icons8-menu-26.png" alt="more" />
-        <div>More</div>
-        
-      </button>
+
+
       <div id="menu">
         <a class="links" href="">
-          <img class="icon" src="assets/Instagram-home-icon-on-transparent-background-PNG.png" alt="home" />
+          <img class="icon " src="assets/Instagram-home-icon-on-transparent-background-PNG.png" alt="home" />
           <div>Settings</div>
         </a>
         <a class="links" href="">
@@ -86,109 +58,26 @@
           <img class="icon" src="assets/icons8-create-50.png" alt="Create" />
           <div>Log out</div>
         </a>
-        
-        
-          
+
+
+
       </div>
-      
-    </div>
-    <div id="right">
+
+    </nav>
+    <section id="right">
       <div id="middle">
-        <div id="stories">
-          <a class="story" href="">
-            <div class="storyCircle">
-              <img src="assets/profilephoto.jpeg" alt="photo">
-            </div>
-            <h5 class="storyUserId">sachin_hore</h5>
-          </a>
-          <a class="story" href="">
-            <div class="storyCircle">
-              <img src="assets/profilephoto.jpeg" alt="photo">
-            </div>
-            <h5 class="storyUserId">sachin_hore</h5>
-          </a>
-          <a class="story" href="">
-            <div class="storyCircle">
-              <img src="assets/profilephoto.jpeg" alt="photo">
-            </div>
-            <h5 class="storyUserId">sachin_hore</h5>
-          </a>
-          <a class="story" href="">
-            <div class="storyCircle">
-              <img src="assets/profilephoto.jpeg" alt="photo">
-            </div>
-            <h5 class="storyUserId">sachin_hore</h5>
-          </a>
-          <a class="story" href="">
-            <div class="storyCircle">
-              <img src="assets/profilephoto.jpeg" alt="photo">
-            </div>
-            <h5 class="storyUserId">sachin_hore</h5>
-          </a>
-          <a class="story" href="">
-            <div class="storyCircle">
-              <img src="assets/profilephoto.jpeg" alt="photo">
-            </div>
-            <h5 class="storyUserId">sachin_hore</h5>
-          </a>
-          <a class="story" href="">
-            <div class="storyCircle">
-              <img src="assets/profilephoto.jpeg" alt="photo">
-            </div>
-            <h5 class="storyUserId">sachin_hore</h5>
-          </a>
-          <a class="story" href="">
-            <div class="storyCircle">
-              <img src="assets/profilephoto.jpeg" alt="photo">
-            </div>
-            <h5 class="storyUserId">sachin_hore</h5>
-          </a>
-          <a class="story" href="">
-            <div class="storyCircle">
-              <img src="assets/profilephoto.jpeg" alt="photo">
-            </div>
-            <h5 class="storyUserId">sachin_hore</h5>
-          </a>
-          <a class="story" href="">
-            <div class="storyCircle">
-              <img src="assets/profilephoto.jpeg" alt="photo">
-            </div>
-            <h5 class="storyUserId">sachin_hore</h5>
-          </a>
-
-        </div>
-        <div id="posts">
-
-        </div>
-
-
+        <div id="stories"></div>
+        <div id="posts"></div>
       </div>
-      <div id="rightSideBar">
-
-        <div class="profileCard">
-          <img src="assets/profilephoto.jpeg"></img>
-          <div class="names">
-            <a class="userId" href="">sachin_hore</a>
-            <div class="userName">Sachin Hore</div>
-          </div>
-          <a class="action" href="">switch</a>
-        </div>
-
+      <aside id="rightSideBar">
+        <div id="profileCard"></div>
         <div class="suggestion">
           <h4>Suggested for you</h4>
-          <a href="">See All</a>
+          <a href="#">See All</a>
         </div>
-
-        <div id="suggestionsBox">
-          
-
-         
-
-        </div>
-
-      </div>
-
-    </div>
+        <div id="suggestionsBox"></div>
+      </aside>
+    </section>
   </main>
   <script src="home.js"></script>
 </body>

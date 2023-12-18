@@ -1,0 +1,42 @@
+[
+    {
+        "iconUrl" : "assets/Instagram-home-icon-on-transparent-background-PNG.png",
+        "value" : "Home",
+        "href" : "#"
+    },
+    {
+        "iconUrl" : "assets/icons8-search-50.png",
+        "value" : "Search",
+        "href" : "#"
+    },
+    {
+        "iconUrl" : "assets/icons8-explore-24.png",
+        "value" : "Explore",
+        "href" : "#"
+    },
+    {
+        "iconUrl" : "assets/icons8-reels-50.png",
+        "value" : "Reels",
+        "href" : "#"
+    },
+    {
+        "iconUrl" : "assets/icons8-messages-64.png",
+        "value" : "Messages",
+        "href" : "#"
+    },
+    {
+        "iconUrl" : "assets/icons8-heart-notification-50.png",
+        "value" : "Notifications",
+        "href" : "#"
+    },
+    {
+        "iconUrl" : "assets/icons8-create-50.png",
+        "value" : "Create",
+        "href" : "#"
+    },
+    {
+        "iconUrl" : "assets/profilephoto.jpeg",
+        "value" : "profile",
+        "href" : "#"
+    }
+]

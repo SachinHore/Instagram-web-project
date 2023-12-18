@@ -4,27 +4,27 @@
   margin: 0;
   padding: 0;
   color: rgb(245, 245, 245);
+  
 }
 
 main {
   display: flex;
   flex-direction: row;
   background-color: #000;
+  width: 100%;
   
 }
 
 #sideBar {
   width: 244px;
-
+  width: 20vw;
+  position: -webkit-sticky;
   position: sticky;
   top: 0px;
   left: 0px;
-
   height: 100vh;
   padding: 10px;
   border-right: 1px solid #666666;
-  
-
   display: flex;
   flex-direction: column;
 }
@@ -36,7 +36,7 @@ main {
   margin-bottom: 18px;
 }
 
-.linksDiv {
+#linksDiv {
   display: flex;
   flex-direction: column;
 }
@@ -48,8 +48,9 @@ main {
   text-decoration: none;
   color: rgb(245, 245, 245);
   width: 220px;
-
+  width: 90%;
   margin-top: 8px;
+  overflow-x: hidden;
 }
 
 .links:hover {
@@ -60,6 +61,7 @@ main {
   width: 24px;
   height: 24px;
   margin-inline: 10px;
+  border-radius: 50%;
 }
 
 .links div {
@@ -68,17 +70,19 @@ main {
   
 }
 
-.profile {
-  border-radius: 50%;
-  background-color: bisque;
-}
+
 
 #more {
   position: fixed;
   bottom: 10px;
-  background-color: #000;
+  
+  max-width: 14vw;
   border: 0px;
   
+}
+
+#more img{
+  border-radius: 0%;
 }
 
 
@@ -113,6 +117,7 @@ main {
 
 #middle {
   width: 630px;
+  width: 40vw;
   height: 500vh;
   
   margin-left: 5vw;
@@ -149,7 +154,6 @@ main {
   width: 66px;
   height: 66px;
   border-radius: 50%;
-  
   border: 3px solid #bc07f3;
   
 
@@ -166,7 +170,6 @@ main {
 
 .story .storyUserId{
   text-align: center;
-  
   overflow-x: hidden;
 }
 
@@ -177,20 +180,22 @@ main {
 
 #rightSideBar {
   width: 319px;
+  width: 30vw;
   height: fit-content;
-  
   display: flex;
   flex-direction: column;
   margin-left: 5vw;
   position: sticky;
   top: 0px;
-  
+  padding-inline: 5%;
 }
 
 #rightSideBar .profileCard{
   display: flex;
   flex-direction: row;
   margin-top: 20px;
+  
+  
 }
 
 .profileCard img{
@@ -242,6 +247,7 @@ main {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
+  
 }
 
 .suggestion h4{
