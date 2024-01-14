@@ -58,6 +58,66 @@
         "userId": "userId4",
         "userName": "userName",
         "action": "Follow"
+    },
+    {
+        "imgSrc": "assets/profilephoto.jpeg",
+        "userId": "userId1",
+        "userName": "userName",
+        "action": "Follow"
+    },
+    {
+        "imgSrc": "",
+        "userId": "userId2",
+        "userName": "userName",
+        "action": "Follow"
+    },
+    {
+        "imgSrc": "assets/profilephoto.jpeg",
+        "userId": "userId3",
+        "userName": "userName",
+        "action": "Unfollow"
+    },
+    {
+        "imgSrc": "#",
+        "userId": "userId4",
+        "userName": "userName",
+        "action": "Follow"
+    },
+    {
+        "imgSrc": "#",
+        "userId": "userId2",
+        "userName": "userName",
+        "action": "Follow"
+    },
+    {
+        "imgSrc": "assets/profilephoto.jpeg",
+        "userId": "userId3",
+        "userName": "userName",
+        "action": "Unfollow"
+    },
+    {
+        "imgSrc": "#",
+        "userId": "userId4",
+        "userName": "userName",
+        "action": "Follow"
+    },
+    {
+        "imgSrc": "#",
+        "userId": "userId2",
+        "userName": "userName",
+        "action": "Follow"
+    },
+    {
+        "imgSrc": "assets/profilephoto.jpeg",
+        "userId": "userId3",
+        "userName": "userName",
+        "action": "Unfollow"
+    },
+    {
+        "imgSrc": "#",
+        "userId": "userId4",
+        "userName": "userName",
+        "action": "Follow"
     }
 
     

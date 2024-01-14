@@ -10,31 +10,26 @@ var linksArr = [];
 onload();
 
 
-async function Func(url) {
-  const response = await fetch(url);
-  const data = await response.json();
-  return data;
+ function fetchFunc(url) {
+  
+  const response =  fetch(url).then((res)=>res.json());
+  //const data = await response.json();
+  return response;//data;
 }
 
 async function onload() {
-  linksArr = [...await Func("./links.json")];
-  suggestionsArr = await Func("./suggestions.json");
+  linksArr = await fetchFunc("./links.json");
+  suggestionsArr = await fetchFunc("./suggestions.json");
 
-  console.log(linksArr);
-
-  console.log(suggestionsArr[0]);
-  console.log("abc");
-  console.log(genereteProfile(currentProfile))
   document.getElementById("profileCard").appendChild(genereteProfile(currentProfile));
+  
   for (let x of linksArr) {
-
-    console.log(x);
-    document.getElementById("linksDiv").appendChild(genereteLink(x));
+    document.getElementById("linksDiv").insertBefore(genereteLink(x),document.getElementById("more"));
   }
-  console.log("xyz");
+
+  
   for (let i = 0; i < 5 && suggestionsArr.length > i; i++) {
       let profile = genereteProfile(suggestionsArr[i]);
-      console.log(profile);
       document.getElementById("suggestionsBox").appendChild(profile);
   }
 
@@ -56,7 +51,6 @@ function menuDisplayBlockNoneToggle() {
 }
 
 function genereteProfile(profile) {
-  console.log(profile);
   const profileCard = document.createElement("div");
   profileCard.setAttribute("class", "profileCard");
 
